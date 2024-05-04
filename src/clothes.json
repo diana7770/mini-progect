@@ -1,0 +1,112 @@
+{
+  "clothes":[
+    {
+      "id": 1,
+      "name": "red dress",
+      "category": "dress",
+      "price": 599
+    },
+
+    {
+      "id": 2,
+      "name": "black T-short",
+      "category": "T-short",
+      "price": 699
+    },
+
+    {
+      "id": 3,
+      "name": "white jeans",
+      "category": "jeans",
+      "price": 499
+    },
+
+    {
+      "id": 4,
+      "name": "white socks",
+      "category": "socks",
+      "price": 399
+    },
+    {
+      "id": 5,
+      "name": "red dress",
+      "category": "dress",
+      "price": 599
+    },
+
+    {
+      "id": 6,
+      "name": "black T-short",
+      "category": "T-short",
+      "price": 699
+    },
+
+    {
+      "id": 7,
+      "name": "white jeans",
+      "category": "jeans",
+      "price": 499
+    },
+
+    {
+      "id": 8,
+      "name": "white socks",
+      "category": "socks",
+      "price": 399
+    },
+    {
+      "id": 9,
+      "name": "red dress",
+      "category": "dress",
+      "price": 599
+    },
+
+    {
+      "id": 10,
+      "name": "black T-short",
+      "category": "T-short",
+      "price": 699
+    },
+
+    {
+      "id": 11,
+      "name": "white jeans",
+      "category": "jeans",
+      "price": 499
+    },
+
+    {
+      "id": 12,
+      "name": "white socks",
+      "category": "socks",
+      "price": 399
+    },
+    {
+      "id": 13,
+      "name": "red dress",
+      "category": "dress",
+      "price": 599
+    },
+
+    {
+      "id": 14,
+      "name": "black T-short",
+      "category": "T-short",
+      "price": 699
+    },
+
+    {
+      "id": 15,
+      "name": "white jeans",
+      "category": "jeans",
+      "price": 499
+    },
+
+    {
+      "id": 16,
+      "name": "white socks",
+      "category": "socks",
+      "price": 399
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./images/bags-shopping.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buy-Sell</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <!-- головна сторінка -->
+    <!--HEADER-->
+    <header>
+      <div class="header__container">
+        <a class="header-title" href="./index.html">Buy-Sell</a>
+        <button class="create__btn">Створити</button>
+        <input
+          class="delete__input"
+          type="text"
+          placeholder="Id"
+          id="deleteId"
+        />
+        <button class="delete__btn" type="button">Видалити</button>
+        <button class="edit__btn" type="button">Редагувати</button>
+        <!-- <div class="backdrop-edit is-hidden-edit"> -->
+        <!-- <div class="edit__modal">
+<button type="button" class="close-edit-post__btn">
+<img src="./imgs/close.svg" />
+</button>
+<form class="edit__form">
+<textarea
+name="editDescription"
+cols="30"
+rows="5"
+placeholder="Please type edited description"
+class="edit-post__description"
+></textarea>
+<button type="submit">Edit</button>
+</form>
+</div>
+</div> -->
+        <form class="search-form" id="search-form">
+          <input
+            class="search__input"
+            type="text"
+            name="query"
+            autocomplete="off"
+            placeholder="Знайти..."
+          />
+          <button class="search__btn">Шукати</button>
+        </form>
+      </div>
+    </header>
+
+    <!--MAIN-->
+    <main>
+      <section class="information__section">
+        <img
+          class="information__img"
+          src="./images/buyandsellclothes.png"
+          alt=""
+          width="1340px"
+          height="550px"
+        />
+        <ul class="clothes__list"></ul>
+      </section>
+    </main>
+    <!--FOOTER-->
+    <footer></footer>
+    <script src="./src/js/index.js" type="module"></script>
+  </body>
+</html>

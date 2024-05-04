@@ -1,0 +1,26 @@
+{
+  "name": "mini-progect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "npx json-server ./src/clothes.json",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url /mini-progect",
+    "pre-start": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diana7770/mini-progect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diana7770/mini-progect/issues"
+  },
+  "homepage": "https://github.com/diana7770/mini-progect#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23",
+    "parcel": "^2.12.0"
+  }
+}
